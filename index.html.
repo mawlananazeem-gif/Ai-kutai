@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Penerjemah Bahasa Kutai</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <header>
+            <h2>🤖 AI Kutai Bot</h2>
+            <p>Sila kemek, ndik usah supan-supan (Silakan tanya, jangan malu-malu)</p>
+        </header>
+
+        <div class="chat-box" id="chatBox">
+            <div class="message bot-msg">
+                Halo! Aku AI penerjemah Bahasa Kutai. Tulis kata atau kalimat dalam Bahasa Indonesia, nanti aku translate ke Bahasa Kutai.
+            </div>
+        </div>
+
+        <div class="input-area">
+            <input type="text" id="userInput" placeholder="Ketik bahasa Indonesia di sini..." onkeypress="handleKeyPress(event)">
+            <button onclick="sendMessage()">Kirim</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
